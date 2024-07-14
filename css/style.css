@@ -55,6 +55,25 @@ ol {
     display: flex;
 }
 
+.btn {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    background: #ff900e;
+    border: 1px solid transparent;
+    transition: all linear 0.4s;
+    padding: 1.25rem 1.5rem;
+}
+
+.btn:hover {
+    color: #ff900e;
+    border-color: #ff900e;
+    background-color: rgba(255, 144, 14, 0.102);
+}
+
 /* ****************************************************************************************************************** */
 
 /* Todo: Header part css start */
@@ -63,7 +82,7 @@ ol {
     background-color: rgba(255, 144, 14, 0.102);
 }
 
-/* Todo: Navbar css */
+/* Todo: Navbar css start */
 .navbar {
     align-items: center;
     justify-content: space-between;
@@ -72,21 +91,49 @@ ol {
 .navbar-brand {
     font-size: 2.8rem;
     font-weight: 700;
-    line-height: 53px;
+    line-height: 3.3rem;
 }
 
 .nav-item {
-    padding-left: 75px;
+    padding-left: 4.7rem;
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.6rem;
     transition: all linear 0.4s;
 }
 
 .nav-link:hover {
     color: #ff900e;
 }
+/* Todo: Navbar css end */
+
+/* Todo: Banner css start */
+.banner-text-content {
+    padding: 3.1rem 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.banner-text-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.7rem;
+}
+
+.banner-text-content h1 > span {
+    display: block;
+}
+
+.banner-text-content p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding: 2.5rem 0 2rem;
+}
+/* Todo: Banner css end */
+
 /* Todo: Header part css end */
+
+/* ****************************************************************************************************************** */
