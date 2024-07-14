@@ -1,0 +1,50 @@
+/* Todo: Media query for small device star */
+@media screen and (max-width: 576px) {
+    /*? Media query of navbar start here */
+    .navbar,
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        padding-top: 1.5rem;
+    }
+
+    .nav-item {
+        padding-left: 0;
+    }
+
+    .nav-link {
+        line-height: 2.5rem;
+    }
+
+    /*? Media query of banner start here  */
+    .banner-text-content h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .banner-text-content {
+        width: 100%;
+        padding: 2.5rem 1rem;
+    }
+
+    .banner-text-content h1 {
+        font-size: 2.7rem;
+        line-height: 3.5rem;
+    }
+
+    .banner-text-content p {
+        padding: 1.5rem 0 1rem;
+        text-align: justify;
+    }
+
+    .banner-img {
+        padding: 0 1rem;
+    }
+
+    .btn {
+        padding: 1rem 1.2rem;
+    }
+}
