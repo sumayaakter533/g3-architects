@@ -51,8 +51,20 @@ ol {
     color: #727272;
 }
 
+.primary-color {
+    color: #ff900e;
+}
+
 .display-flex {
     display: flex;
+}
+
+.display-block {
+    display: block;
+}
+
+.flex-width {
+    width: 50%;
 }
 
 .btn {
@@ -123,11 +135,8 @@ ol {
     line-height: 4.7rem;
 }
 
-.banner-text-content h1 > span {
-    display: block;
-}
-
-.banner-text-content p {
+.banner-text-content p,
+.feature-text-container p {
     font-size: 1rem;
     line-height: 1.6rem;
     padding: 2.5rem 0 2rem;
@@ -135,3 +144,27 @@ ol {
 /* Todo: Banner css end */
 
 /* ****************************************************************************************************************** */
+
+/* Todo: Team-feature css start */
+.team-feature-container {
+    padding: 5.3rem 3.75rem 8.1rem;
+    gap: 4.75rem;
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.feature-text-container h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+}
+
+.feature-text-container p {
+    padding: 1.5rem 5.5rem 0 0;
+}
+/* Todo: Team-feature css end */

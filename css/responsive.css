@@ -1,50 +1,253 @@
-/* Todo: Media query for small device star */
-@media screen and (max-width: 576px) {
-    /*? Media query of navbar start here */
+/* Todo: start media breakpoints -
+    * @media (min-width: 1400)
+    * @media (min-width: 1200px) and (max-width: 1399px)
+    * @media (min-width: 992px) and (max-width: 1199px)
+    * @media (min-width: 768px) and (max-width: 991px)
+    * @media (min-width: 576px) and (max-width: 767px)
+    * @media (max-width: 575px)
+Todo: end */
+
+/* Todo: Media query for screen (min-width: 1200px) */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Todo: Media query for screen (min-width: 992px) and (max-width: 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .btn {
+        padding: 1rem 1.5rem;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    /** navbar part start here */
+    .navbar {
+        padding: 0 4rem;
+    }
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+    .nav-item {
+        padding-left: 3rem;
+    }
+
+    /** banner part start here  */
+    .banner-text-content {
+        padding: 5rem 0;
+        width: 65%;
+    }
+    .banner-text-content h1 {
+        font-size: 3.2rem;
+    }
+    .banner-img {
+        padding: 0 4rem;
+    }
+
+    /** team-feature part start here  */
+    .team-feature-container {
+        padding: 5rem;
+        gap: 4rem;
+    }
+    .feature-text-container p {
+        padding: 1.5rem 0;
+    }
+}
+
+/* Todo: Media query for screen (min-width: 768px) and (max-width: 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .btn {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 1.1rem 1.5rem;
+    }
+
+    /** navbar part start here */
+    .navbar {
+        padding: 0 2rem;
+    }
+    .navbar-brand {
+        font-size: 2.4rem;
+    }
+    .nav-item {
+        padding-left: 2rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    /** banner part start here  */
+    .banner-text-content {
+        padding: 5rem 0;
+        width: 70%;
+    }
+    .banner-text-content h1 {
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+    }
+    .banner-img {
+        padding: 0 2rem;
+    }
+
+    /** team-feature part start here  */
+    .team-img-container {
+        gap: 1rem;
+    }
+    .team-feature-container {
+        padding: 4rem 2rem;
+        gap: 2rem;
+        align-items: center;
+    }
+    .banner-text-content p,
+    .feature-text-container p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .feature-text-container p {
+        padding: 1.5rem 0rem;
+    }
+    .feature-text-container h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+}
+
+/* Todo: Media query for screen (min-width: 576px) and (max-width: 767px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .btn {
+        font-size: 1.1rem;
+        padding: 1rem 1.5rem;
+        margin-top: 1rem;
+    }
+
+    /** navbar part start here */
     .navbar,
     .navbar-nav {
         flex-direction: column;
         text-align: center;
     }
-
     .navbar-nav {
         padding-top: 1.5rem;
     }
-
     .nav-item {
         padding-left: 0;
     }
-
     .nav-link {
         line-height: 2.5rem;
     }
 
-    /*? Media query of banner start here  */
+    /** banner part start here  */
+    .banner-text-content h1 {
+        font-size: 2.8rem;
+        line-height: 4rem;
+    }
+    .banner-text-content {
+        padding: 3.1rem 1.5rem 4.5rem;
+        width: 100%;
+    }
+    .feature-text-container p {
+        padding: 1.5rem 1rem 1.5rem 0;
+    }
+    .banner-img {
+        padding: 0 1.5rem;
+    }
+
+    /** team-feature part start here  */
+    .team-feature-container {
+        padding: 4rem 1.5rem;
+        gap: 4rem;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feature-text-container {
+        order: -1;
+    }
+    .team-img-container {
+        order: 1;
+    }
+    .flex-width {
+        width: 100%;
+    }
+}
+
+/* Todo: Media query for screen (max-width: 575px) */
+@media screen and (max-width: 575px) {
+    .btn {
+        font-size: 1.1rem;
+        padding: 1rem 1.2rem;
+    }
+
+    /** navbar part start here */
+    .navbar,
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .navbar-nav {
+        padding-top: 1.5rem;
+    }
+    .nav-item {
+        padding-left: 0;
+    }
+    .nav-link {
+        line-height: 2.5rem;
+    }
+
+    /** banner part start here  */
     .banner-text-content h1 {
         font-size: 3rem;
         line-height: 4rem;
     }
-
     .banner-text-content {
         width: 100%;
-        padding: 2.5rem 1rem;
+        padding: 2.5rem 1.5rem;
     }
-
     .banner-text-content h1 {
-        font-size: 2.7rem;
-        line-height: 3.5rem;
+        font-size: 2rem;
+        line-height: 3rem;
     }
-
     .banner-text-content p {
         padding: 1.5rem 0 1rem;
         text-align: justify;
     }
-
     .banner-img {
-        padding: 0 1rem;
+        padding: 1rem 1.5rem 0;
     }
 
-    .btn {
-        padding: 1rem 1.2rem;
+    /** team-feature start here  */
+    .team-feature-container {
+        padding: 4rem 1.5rem 5rem;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+    .team-img-container {
+        gap: 1.5rem;
+    }
+    .flex-width {
+        width: 100%;
+    }
+    .team-img-container {
+        order: 1;
+    }
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+    }
+    .feature-text-container {
+        order: -1;
+    }
+    .feature-text-container h2 {
+        font-size: 2.4rem;
+    }
+    .feature-text-container p {
+        padding: 1.5rem 0rem 0 0;
+        text-align: justify;
     }
 }
