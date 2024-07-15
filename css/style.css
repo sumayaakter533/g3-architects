@@ -71,13 +71,12 @@ ol {
     color: #ffffff;
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: 1.5rem;
-    border-radius: 0.5rem;
-    margin-top: 2rem;
+    line-height: 23px;
+    border-radius: 8px;
     background: #ff900e;
     border: 1px solid transparent;
     transition: all linear 0.4s;
-    padding: 1.25rem 1.5rem;
+    padding: 20px 24px;
 }
 
 .btn:hover {
@@ -93,78 +92,77 @@ ol {
     padding: 50px 0 45px;
     background-color: rgba(255, 144, 14, 0.102);
 }
-
 /* Todo: Navbar css start */
 .navbar {
     align-items: center;
     justify-content: space-between;
 }
-
 .navbar-brand {
     font-size: 2.8rem;
     font-weight: 700;
-    line-height: 3.3rem;
+    line-height: 54px;
 }
-
-.nav-item {
-    padding-left: 4.7rem;
+.navbar-nav {
+    gap: 75px;
 }
-
 .nav-link {
     font-size: 1.2rem;
     font-weight: 500;
-    line-height: 1.6rem;
+    line-height: 26px;
     transition: all linear 0.4s;
 }
-
 .nav-link:hover {
     color: #ff900e;
 }
 /* Todo: Navbar css end */
 
+/* ****************************************************************************************************************** */
+
 /* Todo: Banner css start */
 .banner-text-content {
-    padding: 3.1rem 0;
-    width: 60%;
     margin: 0 auto;
+    padding: 100px 0 50px;
 }
-
 .banner-text-content h1 {
     font-size: 4rem;
     font-weight: 700;
-    line-height: 4.7rem;
+    line-height: 75px;
 }
-
-.banner-text-content p,
-.feature-text-container p {
+.banner-text-content p {
     font-size: 1rem;
-    line-height: 1.6rem;
-    padding: 2.5rem 0 2rem;
+    line-height: 26px;
+    padding: 32px 12%;
 }
 /* Todo: Banner css end */
 
 /* ****************************************************************************************************************** */
 
 /* Todo: Team-feature css start */
-.team-feature-container {
-    padding: 5.3rem 3.75rem 8.1rem;
-    gap: 4.75rem;
+.team-container {
+    gap: 72px;
     align-items: center;
+    padding: 85px 60px 130px;
 }
-
 .team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-
-.feature-text-container h2 {
+.team-text-container h2 {
     font-size: 2.8rem;
     font-weight: 700;
-    line-height: 3.3rem;
+    line-height: 50px;
 }
-
-.feature-text-container p {
-    padding: 1.5rem 5.5rem 0 0;
+.team-text-container p {
+    font-size: 1rem;
+    line-height: 26px;
+    padding: 24px 0 32px;
 }
 /* Todo: Team-feature css end */
+
+/* ****************************************************************************************************************** */
+
+/* Todo: Feature css start */
+
+
+/* Todo: Feature css end */

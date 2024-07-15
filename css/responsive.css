@@ -8,241 +8,247 @@
 Todo: end */
 
 /* Todo: Media query for screen (min-width: 1200px) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     .container {
         max-width: 1140px;
     }
 }
 
+/* Todo: Media query for screen (min-width: 1200px) and (max-width: 1399px)  */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    #header-section {
+        padding: 50px 80px 45px;
+    }
+
+    .team-container {
+        gap: 56px;
+        padding: 85px 120px 100px;
+    }
+}
+
 /* Todo: Media query for screen (min-width: 992px) and (max-width: 1199px) */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    .btn {
-        padding: 1rem 1.5rem;
-        font-size: 1.1rem;
-        margin-top: 1rem;
-    }
-
-    /** navbar part start here */
-    .navbar {
-        padding: 0 4rem;
+    /* !=============================================== navbar part css start ======================================================= */
+    #header-section {
+        padding: 50px;
     }
     .navbar-brand {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
-    .nav-item {
-        padding-left: 3rem;
+    .navbar-nav {
+        gap: 48px;
+    }
+    .nav-link {
+        font-size: 1.1rem;
     }
 
-    /** banner part start here  */
-    .banner-text-content {
-        padding: 5rem 0;
-        width: 65%;
-    }
+    /* !=============================================== banner part css start ====================================================== */
+
     .banner-text-content h1 {
         font-size: 3.2rem;
+        line-height: 68px;
     }
-    .banner-img {
-        padding: 0 4rem;
+    .banner-text-content p {
+        padding: 32px 12% 50px;
     }
 
-    /** team-feature part start here  */
-    .team-feature-container {
-        padding: 5rem;
-        gap: 4rem;
+    /* !================================================ team part css start ======================================================= */
+
+    .team-container {
+        gap: 58px;
+        align-items: center;
+        padding: 68px 60px 90px;
     }
-    .feature-text-container p {
-        padding: 1.5rem 0;
+    .team-text-container h2 {
+        font-size: 2.6rem;
     }
 }
 
 /* Todo: Media query for screen (min-width: 768px) and (max-width: 991px) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .btn {
-        margin-top: 1rem;
-        font-size: 1rem;
-        line-height: 1rem;
-        padding: 1.1rem 1.5rem;
+    /* !=============================================== navbar part css start ======================================================= */
+    #header-section {
+        padding: 40px 30px;
     }
-
-    /** navbar part start here */
-    .navbar {
-        padding: 0 2rem;
+    .navbar-nav {
+        gap: 30px;
     }
     .navbar-brand {
-        font-size: 2.4rem;
-    }
-    .nav-item {
-        padding-left: 2rem;
+        font-size: 2.2rem;
     }
     .nav-link {
         font-size: 1rem;
     }
+    .btn {
+        font-size: 1.15rem;
+        padding: 16px 20px;
+    }
 
-    /** banner part start here  */
+    /* !=============================================== banner part css start ====================================================== */
     .banner-text-content {
-        padding: 5rem 0;
-        width: 70%;
+        padding: 80px 0 50px;
     }
     .banner-text-content h1 {
-        font-size: 3.2rem;
-        font-weight: 700;
-        line-height: 4.5rem;
+        font-size: 2.8rem;
+        line-height: 64px;
     }
-    .banner-img {
-        padding: 0 2rem;
+    .banner-text-content p {
+        padding: 32px 8%;
     }
 
-    /** team-feature part start here  */
+    /* !================================================ team part css start ======================================================= */
+
+    .team-container {
+        gap: 40px;
+        padding: 50px;
+    }
     .team-img-container {
         gap: 1rem;
     }
-    .team-feature-container {
-        padding: 4rem 2rem;
-        gap: 2rem;
-        align-items: center;
+    .team-text-container h2 {
+        font-size: 2rem;
+        line-height: 44px;
     }
-    .banner-text-content p,
-    .feature-text-container p {
-        font-size: 1rem;
-        line-height: 1.4rem;
-    }
-    .feature-text-container p {
-        padding: 1.5rem 0rem;
-    }
-    .feature-text-container h2 {
-        font-size: 2.2rem;
-        line-height: 3rem;
+    .team-text-container p {
+        font-size: 0.9rem;
+        line-height: 24px;
+        padding: 18px 0 26px;
     }
 }
 
 /* Todo: Media query for screen (min-width: 576px) and (max-width: 767px) */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    .btn {
-        font-size: 1.1rem;
-        padding: 1rem 1.5rem;
-        margin-top: 1rem;
-    }
+    /* !=============================================== navbar part css start ======================================================= */
 
-    /** navbar part start here */
+    #header-section {
+        padding: 40px 0 15px;
+    }
     .navbar,
     .navbar-nav {
         flex-direction: column;
         text-align: center;
+        gap: 16px;
     }
-    .navbar-nav {
-        padding-top: 1.5rem;
-    }
-    .nav-item {
-        padding-left: 0;
+    .navbar-brand {
+        font-size: 2.4rem;
     }
     .nav-link {
-        line-height: 2.5rem;
+        font-size: 1.1rem;
+    }
+    .btn {
+        font-size: 1.1rem;
+        padding: 16px 22px;
     }
 
-    /** banner part start here  */
-    .banner-text-content h1 {
-        font-size: 2.8rem;
-        line-height: 4rem;
-    }
+    /* !=============================================== banner part css start ====================================================== */
+
     .banner-text-content {
-        padding: 3.1rem 1.5rem 4.5rem;
-        width: 100%;
+        padding: 40px 15px 35px;
     }
-    .feature-text-container p {
-        padding: 1.5rem 1rem 1.5rem 0;
+    .banner-text-content h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .banner-text-content p {
+        padding: 24px 30px 35px;
     }
     .banner-img {
-        padding: 0 1.5rem;
+        padding: 15px;
     }
 
-    /** team-feature part start here  */
-    .team-feature-container {
-        padding: 4rem 1.5rem;
-        gap: 4rem;
-        align-items: center;
+    /* !================================================ team part css start ======================================================= */
+
+    .team-container {
+        padding: 40px 15px 60px;
         flex-direction: column;
+        gap: 50px;
+    }
+    .flex-width {
+        width: 100%;
+    }
+    .team-img-container {
+        grid-template-columns: repeat(2, 1fr);
+        order: 1;
+        gap: 15px;
     }
     .feature-text-container {
         order: -1;
     }
-    .team-img-container {
-        order: 1;
+    .team-text-container h2 {
+        font-size: 2.2rem;
+        line-height: 46px;
     }
-    .flex-width {
-        width: 100%;
+    .team-text-container p {
+        padding: 20px 20px 32px 0;
     }
 }
 
 /* Todo: Media query for screen (max-width: 575px) */
 @media screen and (max-width: 575px) {
-    .btn {
-        font-size: 1.1rem;
-        padding: 1rem 1.2rem;
-    }
+    /* !=============================================== navbar part css start ======================================================= */
 
-    /** navbar part start here */
+    #header-section {
+        padding: 35px 0 20px;
+    }
     .navbar,
     .navbar-nav {
         flex-direction: column;
         text-align: center;
+        gap: 16px;
     }
     .navbar-brand {
-        font-size: 2rem;
-        line-height: 2rem;
-    }
-    .navbar-nav {
-        padding-top: 1.5rem;
-    }
-    .nav-item {
-        padding-left: 0;
+        font-size: 1.8rem;
     }
     .nav-link {
-        line-height: 2.5rem;
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 16px 20px;
     }
 
-    /** banner part start here  */
-    .banner-text-content h1 {
-        font-size: 3rem;
-        line-height: 4rem;
-    }
+    /* !=============================================== banner part css start ====================================================== */
+
     .banner-text-content {
-        width: 100%;
-        padding: 2.5rem 1.5rem;
+        padding: 30px 15px;
     }
     .banner-text-content h1 {
         font-size: 2rem;
         line-height: 3rem;
     }
     .banner-text-content p {
-        padding: 1.5rem 0 1rem;
         text-align: justify;
+        padding: 20px 0 40px;
     }
     .banner-img {
-        padding: 1rem 1.5rem 0;
+        padding: 15px;
     }
 
-    /** team-feature start here  */
-    .team-feature-container {
-        padding: 4rem 1.5rem 5rem;
-        gap: 1.5rem;
+    /* !================================================ team part css start ======================================================= */
+
+    .team-container {
+        padding: 40px 15px;
         flex-direction: column;
-    }
-    .team-img-container {
-        gap: 1.5rem;
+        gap: 50px;
     }
     .flex-width {
         width: 100%;
     }
     .team-img-container {
-        order: 1;
-    }
-    .team-img-container {
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 2rem;
+        order: 1;
+        gap: 15px;
     }
     .feature-text-container {
         order: -1;
     }
+    .team-text-container h2 {
+        font-size: 2.2rem;
+        line-height: 46px;
+    }
+
+    /* !====================================================================================================================== */
+
     .feature-text-container h2 {
         font-size: 2.4rem;
     }
@@ -250,4 +256,6 @@ Todo: end */
         padding: 1.5rem 0rem 0 0;
         text-align: justify;
     }
+
+    /* !====================================================================================================================== */
 }
